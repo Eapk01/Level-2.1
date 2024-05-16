@@ -17,7 +17,7 @@ class NoteManager {
   void viewNotes() {
     int b = 0;
     for (note a in notes) {
-      print('${b++} - ${a.NoteName ?? "Unnamed Note"}');
+      print('${++b} - ${a.NoteName ?? "Unnamed Note"}');
     }
   }
 
